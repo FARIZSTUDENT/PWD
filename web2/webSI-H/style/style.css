@@ -1,0 +1,87 @@
+/* Reset dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+    margin-top: 20px;
+}
+
+.kategori, .best-seller, .list-buku {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kategori div, .best-seller div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.kategori-item, .buku-card {
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.buku-card img {
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.list-buku table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.list-buku th, .list-buku td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #007bff;
+    color: white;
+    margin-top: 20px;
+}

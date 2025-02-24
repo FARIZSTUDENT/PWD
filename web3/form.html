@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Hackathon</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2>Form Pendaftaran Hackathon</h2>
+    <form action="landing.html" method="GET">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+        
+        <label for="umur">Umur:</label>
+        <input type="number" id="umur" name="umur" required>
+        
+        <label>Jenis Kelamin:</label>
+        <input type="radio" id="laki" name="gender" value="Laki-laki" required>
+        <label for="laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="gender" value="Perempuan" required>
+        <label for="perempuan">Perempuan</label>
+        
+        <label>Minat Teknologi:</label>
+        <input type="checkbox" name="minat" value="AI"> AI & Machine Learning
+        <input type="checkbox" name="minat" value="Web Dev"> Web Development
+        <input type="checkbox" name="minat" value="Cybersecurity"> Cybersecurity
+        
+        <label for="kategori">Kategori Pendaftaran:</label>
+        <select id="kategori" name="kategori">
+            <option value="Mahasiswa">Mahasiswa</option>
+            <option value="Profesional">Profesional</option>
+            <option value="Umum">Umum</option>
+        </select>
+        
+        <button type="submit">Kirim</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+
+    <h2>Form</h2>
+
+    <form action="">
+
+        <!-- Input Nama -->
+        <label for="nama">Nama :</label>
+        <input type="text" name="nama" id="nama" value="Juan" placeholder="Masukkan nama">
+        <br><br>
+
+        <!-- Input Umur -->
+        <label for="umur">Umur :</label> 
+        <input type="number" name="umur" id="umur" placeholder="Masukkan umur">
+        <br><br>
+
+        <!-- Input Password -->
+        <label for="password">Password :</label>
+        <input type="password" name="password" id="password" placeholder="Masukkan password">
+        <br><br>
+
+        <!-- Input Gender (Radio dimana name harus sama) -->
+        <label>Gender :</label>
+        <input type="radio" name="gender" id="laki-laki" value="laki-laki">
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" name="gender" id="perempuan" value="perempuan">
+        <label for="perempuan">Perempuan</label>
+        <br><br>
+
+        <!-- Input Hobi (Checkbox) -->
+        <label>Hobi :</label><br>
+        <input type="checkbox" name="hobi" id="makan" value="makan">
+        <label for="makan">Makan</label>
+        <input type="checkbox" name="hobi" id="tidur" value="tidur">
+        <label for="tidur">Tidur</label>
+        <input type="checkbox" name="hobi" id="baca" value="baca">
+        <label for="baca">Baca</label>
+        <br><br>
+
+        <!-- Input Buku (Dropdown) -->
+        <label for="buku">Buku yang dipinjam :</label>
+        <select name="buku" id="buku">
+            <option value="Laut Bercerita">Laut Bercerita</option>
+            <option value="Filosofi Teras">Filosofi Teras</option>
+            <option value="Atomic Habits">Atomic Habits</option>
+        </select>
+        <br><br>
+
+        <!-- Tombol Submit dan Reset -->
+        <input type="submit" value="Kirim">
+        <button type="reset">Reset</button>
+
+    </form>
+
+    <br>
+    <a href="../index.html">Kembali ke Halaman Utama</a>
+
+</body>
+</html>
