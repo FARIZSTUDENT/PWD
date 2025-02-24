@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+}
+
+header h1 {
+    font-style: italic;
+    font-family: "Sigmar", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-light {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.button {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#carouselExampleFade {
+    max-width: 60%;
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+    height: 300px;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.02);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(100%);
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+};

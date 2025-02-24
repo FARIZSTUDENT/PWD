@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="./styleform.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Formulir Pendaftaran</header>
+      <form action="landing.html" method="GET" class="form">
+        <div class="input-box">
+          <label for="nama">Nama Lengkap</label>
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            placeholder="Masukkan nama lengkap"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <label for="email">Alamat Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Masukkan email"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <label for="umur">Umur</label>
+          <input
+            type="number"
+            id="umur"
+            name="umur"
+            placeholder="Masukkan umur"
+            required
+          />
+        </div>
+        <div class="gender-box">
+          <h3>Jenis Kelamin</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input
+                type="radio"
+                id="laki"
+                name="gender"
+                value="Laki-laki"
+                required
+              />
+              <label for="laki">Laki-laki</label>
+            </div>
+            <div class="gender">
+              <input
+                type="radio"
+                id="perempuan"
+                name="gender"
+                value="Perempuan"
+                required
+              />
+              <label for="perempuan">Perempuan</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box">
+          <label>Minat Teknologi</label>
+          <div class="column">
+            <div>
+              <input type="checkbox" id="ai" name="minat" value="AI" />
+              <label for="ai">AI & Machine Learning</label>
+            </div>
+            <div>
+              <input type="checkbox" id="webdev" name="minat" value="Web Dev" />
+              <label for="webdev">Web Development</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="cyber"
+                name="minat"
+                value="Cybersecurity"
+              />
+              <label for="cyber">Cybersecurity</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box">
+          <label for="kategori">Kategori Pendaftaran</label>
+          <select id="kategori" name="kategori" required>
+            <option hidden>Pilih kategori</option>
+            <option value="Mahasiswa">Mahasiswa</option>
+            <option value="Profesional">Profesional</option>
+            <option value="Umum">Umum</option>
+          </select>
+        </div>
+        <button type="submit">Kirim</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+  </body>
+</html>
