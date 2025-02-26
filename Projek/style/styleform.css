@@ -203,3 +203,14 @@ body {
 .form button:hover {
   background: linear-gradient(135deg, #0056b3, #004090);
 }
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 20px;
+  text-decoration: none;
+}
